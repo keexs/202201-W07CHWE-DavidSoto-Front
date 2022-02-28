@@ -6,6 +6,8 @@ const FormStyle = styled.div`
   justify-content: center;
   align-items: center;
   background-color: gray;
+  padding-bottom: 50px;
+  border-radius: 33px 0px 0px 33px;
 
   .title {
     align-self: flex-end;

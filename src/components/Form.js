@@ -3,25 +3,25 @@ import FormStyle from "../style/formStyle";
 const SignIn = () => {
   return (
     <>
-      <FormStyle>
+      <FormStyle autoComplete="off" noValidate>
         <h2 className="title">Sign In </h2>
-        <label htmlFor="">UserName</label>
+        <label htmlFor="username">UserName</label>
         <input type="text" />
 
-        <label htmlFor="">Name</label>
+        <label htmlFor="name">Name</label>
         <input type="text" />
 
-        <label htmlFor="">Surname</label>
+        <label htmlFor="surname">Surname</label>
         <input type="text" />
 
-        <label htmlFor="">Age</label>
+        <label htmlFor="age">Age</label>
         <input type="number" />
 
-        <label htmlFor="">Email</label>
-        <input type="text" />
+        <label htmlFor="email">Email</label>
+        <input type="email" />
 
-        <label htmlFor="">Password</label>
-        <input type="text" />
+        <label htmlFor="password">Password</label>
+        <input type="password" />
 
         <button>Sign In</button>
       </FormStyle>

@@ -7,9 +7,9 @@ function App() {
     <div>
       <h1>Welcome to faceBruh</h1>
       <Routes>
-        <Route path="/" element={<Navigate to="/login" />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/signin" element={<SignInPage />} />
+        <Route path="/user" element={<Navigate to="/user/login" />} />
+        <Route path="user/login" element={<LoginPage />} />
+        <Route path="user/signin" element={<SignInPage />} />
       </Routes>
     </div>
   );
